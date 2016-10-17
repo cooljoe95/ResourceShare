@@ -14,13 +14,18 @@
 		CED543FA19C53D1C00D6C2DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CED543F919C53D1C00D6C2DC /* main.m */; };
 		CED543FE19C53D1C00D6C2DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CED543FD19C53D1C00D6C2DC /* AppDelegate.m */; };
 		CED5440119C53D1C00D6C2DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED543FF19C53D1C00D6C2DC /* Main.storyboard */; };
-		CED5440419C53D1C00D6C2DC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CED5440319C53D1C00D6C2DC /* ViewController.m */; };
 		CED5440619C53D1C00D6C2DC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CED5440519C53D1C00D6C2DC /* Images.xcassets */; };
 		CED5440D19C53D1C00D6C2DC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CED5440C19C53D1C00D6C2DC /* XCTest.framework */; };
 		CED5440E19C53D1C00D6C2DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CED543ED19C53D1C00D6C2DC /* Foundation.framework */; };
 		CED5440F19C53D1C00D6C2DC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CED543F119C53D1C00D6C2DC /* UIKit.framework */; };
 		CED5441719C53D1C00D6C2DC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CED5441519C53D1C00D6C2DC /* InfoPlist.strings */; };
 		CED5441919C53D1C00D6C2DC /* ResourceShareTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CED5441819C53D1C00D6C2DC /* ResourceShareTests.m */; };
+		CED5442419C53EAD00D6C2DC /* HomeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CED5442319C53EAD00D6C2DC /* HomeTableViewController.m */; };
+		CED5442A19C566F500D6C2DC /* CreateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CED5442919C566F500D6C2DC /* CreateViewController.m */; };
+		CED5442D19C574D600D6C2DC /* ProductListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CED5442C19C574D600D6C2DC /* ProductListTableViewController.m */; };
+		CED5443219C5833D00D6C2DC /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CED5443119C5833D00D6C2DC /* ProfileViewController.m */; };
+		CED5443519C58DCF00D6C2DC /* ResourceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CED5443419C58DCF00D6C2DC /* ResourceViewController.m */; };
+		CED5443819C592B700D6C2DC /* FinalDescriptionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CED5443719C592B700D6C2DC /* FinalDescriptionViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +50,24 @@
 		CED543FC19C53D1C00D6C2DC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CED543FD19C53D1C00D6C2DC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		CED5440019C53D1C00D6C2DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CED5440219C53D1C00D6C2DC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CED5440319C53D1C00D6C2DC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CED5440519C53D1C00D6C2DC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CED5440B19C53D1C00D6C2DC /* ResourceShareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ResourceShareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CED5440C19C53D1C00D6C2DC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		CED5441419C53D1C00D6C2DC /* ResourceShareTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ResourceShareTests-Info.plist"; sourceTree = "<group>"; };
 		CED5441619C53D1C00D6C2DC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CED5441819C53D1C00D6C2DC /* ResourceShareTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResourceShareTests.m; sourceTree = "<group>"; };
+		CED5442219C53EAD00D6C2DC /* HomeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTableViewController.h; sourceTree = "<group>"; };
+		CED5442319C53EAD00D6C2DC /* HomeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTableViewController.m; sourceTree = "<group>"; };
+		CED5442819C566F500D6C2DC /* CreateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CreateViewController.h; path = ../CreateViewController.h; sourceTree = "<group>"; };
+		CED5442919C566F500D6C2DC /* CreateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CreateViewController.m; path = ../CreateViewController.m; sourceTree = "<group>"; };
+		CED5442B19C574D600D6C2DC /* ProductListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductListTableViewController.h; sourceTree = "<group>"; };
+		CED5442C19C574D600D6C2DC /* ProductListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductListTableViewController.m; sourceTree = "<group>"; };
+		CED5443019C5833D00D6C2DC /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		CED5443119C5833D00D6C2DC /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		CED5443319C58DCF00D6C2DC /* ResourceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResourceViewController.h; sourceTree = "<group>"; };
+		CED5443419C58DCF00D6C2DC /* ResourceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResourceViewController.m; sourceTree = "<group>"; };
+		CED5443619C592B700D6C2DC /* FinalDescriptionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FinalDescriptionViewController.h; sourceTree = "<group>"; };
+		CED5443719C592B700D6C2DC /* FinalDescriptionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FinalDescriptionViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +130,18 @@
 				CED543FC19C53D1C00D6C2DC /* AppDelegate.h */,
 				CED543FD19C53D1C00D6C2DC /* AppDelegate.m */,
 				CED543FF19C53D1C00D6C2DC /* Main.storyboard */,
-				CED5440219C53D1C00D6C2DC /* ViewController.h */,
-				CED5440319C53D1C00D6C2DC /* ViewController.m */,
+				CED5443619C592B700D6C2DC /* FinalDescriptionViewController.h */,
+				CED5443719C592B700D6C2DC /* FinalDescriptionViewController.m */,
+				CED5443319C58DCF00D6C2DC /* ResourceViewController.h */,
+				CED5443419C58DCF00D6C2DC /* ResourceViewController.m */,
+				CED5443019C5833D00D6C2DC /* ProfileViewController.h */,
+				CED5443119C5833D00D6C2DC /* ProfileViewController.m */,
+				CED5442B19C574D600D6C2DC /* ProductListTableViewController.h */,
+				CED5442C19C574D600D6C2DC /* ProductListTableViewController.m */,
+				CED5442219C53EAD00D6C2DC /* HomeTableViewController.h */,
+				CED5442319C53EAD00D6C2DC /* HomeTableViewController.m */,
+				CED5442819C566F500D6C2DC /* CreateViewController.h */,
+				CED5442919C566F500D6C2DC /* CreateViewController.m */,
 				CED5440519C53D1C00D6C2DC /* Images.xcassets */,
 				CED543F419C53D1C00D6C2DC /* Supporting Files */,
 			);
@@ -249,8 +274,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CED5440419C53D1C00D6C2DC /* ViewController.m in Sources */,
+				CED5443819C592B700D6C2DC /* FinalDescriptionViewController.m in Sources */,
+				CED5442A19C566F500D6C2DC /* CreateViewController.m in Sources */,
 				CED543FE19C53D1C00D6C2DC /* AppDelegate.m in Sources */,
+				CED5442D19C574D600D6C2DC /* ProductListTableViewController.m in Sources */,
+				CED5442419C53EAD00D6C2DC /* HomeTableViewController.m in Sources */,
+				CED5443519C58DCF00D6C2DC /* ResourceViewController.m in Sources */,
+				CED5443219C5833D00D6C2DC /* ProfileViewController.m in Sources */,
 				CED543FA19C53D1C00D6C2DC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
